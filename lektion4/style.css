@@ -1,0 +1,88 @@
+
+table{
+    font-family: 'Niramit', sans-serif;
+    color: teal;
+    
+}
+
+
+
+a{
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 900px;
+    margin: 150px auto;
+    
+}
+
+th, td {
+    text-align:left;
+    padding: 8px;
+}
+table {
+    width: 600px;
+    }
+    th {
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    }
+    tr:nth-child(odd) {
+    background-color: #efefef;
+    }
+    
+
+th{
+    text-align: center;
+    color: brown;
+}
+
+
+a:link {
+    color: red;
+}
+/* visited link */
+a:visited {
+    color: green;
+}
+/* mouse over link */
+/* selected link */
+a:hover {
+color: hotpink;
+}
+a:active {
+    color: blue;
+}
+
+    a {
+        text-decoration: none;
+        
+        }
+        a:hover {
+        text-decoration: underline;
+        
+        }
+
+        ul{
+            list-style-type: square;
+            padding: 20px;
+        }
+        ol{
+            list-style-type: upper-roman;
+            padding: 20px;
+        }
+
+        body{
+            background-image: url('../lektion6/1200px-HTML5_logo_and_wordmark.svg.png');
+            background-size: 10%;
+            background-repeat: repeat-x;
+            
+            display: block;
+            
+        }
+        
+        
+        
+
