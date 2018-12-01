@@ -1,0 +1,232 @@
+colors{
+    color: #233656;
+    color: #415b76;
+    color: #7b9ba6;
+    color: #cdd6d5;
+    color: #eef4f2;
+}
+
+
+
+h1{
+    
+    font-family: 'Eagle Lake', cursive;
+    font-size: 2.5em;
+    color: #233656;
+    text-align: center;
+    
+    
+}
+.h2{
+    
+    font-family: 'Kaushan Script', cursive;
+    font-size: 2.5em;
+    color: #415b76;
+    text-align: center;
+    
+}
+
+
+
+figure{
+    
+   
+    color: #415b76;
+    font-family: 'Kaushan Script', cursive;
+    
+    
+    
+}
+
+figure figcaption {
+    
+    text-align: center;
+    
+}
+
+
+
+
+body{
+background: url("./image/code_opacity.png"), url("./image/formation-html-lyon.png") right bottom no-repeat fixed;
+background-color: #deeaee;
+
+
+}
+
+
+
+
+.image {
+    display: block;
+    margin: 0px auto;
+    border-radius: 50%;
+    width: 400px;
+    height: auto;
+    opacity: 0.90;
+    
+    
+    }
+.imageport {
+    display: block;
+    margin: 0px auto;
+        width: 400px;
+        height: auto;
+        opacity: 0.90;
+        border-radius: 15%;
+    
+    }
+
+
+
+    .portfolio figure{
+
+        display: inline-block;
+        border: solid #7b9ba6;
+        margin: 20px;
+         width: 400px;
+        height: auto;
+    }
+
+    .portfolio img{
+        vertical-align: top;
+       
+    }
+
+    .figure figcaption{
+        
+        text-align: center;
+    }
+
+    #github{
+        display: block;
+        font-family: 'Sedgwick Ave', cursive;
+        font-size: 1.5em;
+        color: #415b76;
+        text-align: center;
+        margin: auto;
+        text-decoration: none;
+        
+    }
+    
+    a:hover {
+        color:#7b9ba6;
+    }
+
+
+    #contact{
+        
+        font-family: 'Oswald', sans-serif;
+        color: #415b76;
+        font-size: 1.5em;
+        width: 80%;
+        padding-top: 1em;
+        padding-left: 5em;
+        
+        
+        
+    }
+
+    .my-form{
+        padding: 7em;
+        font-family: 'Oswald', sans-serif;
+        color: #233656;
+    }
+
+    .my-form .form{
+        padding-bottom: 15px;
+    }
+
+    .my-form label{
+        display: block;
+    }
+
+    .my-form [type="text"],.my-form [type="email"] ,.my-form textarea{
+       padding: 8px;
+       width: 30%;
+       
+       
+    }
+    
+    .my-form [type="button"]{
+        
+        background-color: #233656;
+        color: #cdd6d5;
+        padding: 10px 15px;
+        
+        border: none;
+        font-weight: bold;    
+        
+    }
+
+    /* .button:hover{   OBS!!!! det fungerar inte
+       background-color: #7b9ba6;
+       color: #233656;
+    } */
+
+    iframe{
+        float: right;
+        padding-right: 10em;
+        padding-top: 8em;
+        
+
+    }
+
+
+    ul#navigation{
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        float: top;
+        font-family: 'Merienda', cursive;
+        font-size: 1.5em;
+    }
+
+    
+    ul#navigation li > a{
+        display: block;
+        text-decoration: none;
+        color: #cdd6d5;
+        background-color:#233656;
+        width: 100%;
+        padding: 10px;
+        border-right: 3px solid #7b9ba6;
+        list-style-type: none;
+    }
+    
+    ul#navigation a:hover{
+        background-color: #415b76;
+        color: #233656;
+    }
+
+    ul#navigation li{
+        display: inline-block;
+    }
+
+
+    .footer{
+        
+   left: 0;
+   bottom: 10;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+    }
+
+
+    
+
+    
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    
