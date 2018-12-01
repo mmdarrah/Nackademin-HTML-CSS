@@ -52,6 +52,7 @@ background: url("./image/code_opacity.png"), url("./image/formation-html-lyon.pn
 background-color: #deeaee;
 
 
+
 }
 
 
@@ -74,6 +75,7 @@ background-color: #deeaee;
         height: auto;
         opacity: 0.90;
         border-radius: 15%;
+        border: #233656 1px solid;
     
     }
 
@@ -204,7 +206,7 @@ background-color: #deeaee;
     }
 
 
-    .footer{
+   /*  .footer{
         
    left: 0;
    bottom: 10;
@@ -212,7 +214,26 @@ background-color: #deeaee;
    background-color: red;
    color: white;
    text-align: center;
-}
+} */
+    
+
+
+    .blocks{
+        float: left;
+        width: 33.3%;
+
+    }
+
+    
+    .footer{
+
+        color: #233656;
+        font-family: 'Merienda', cursive;
+        font-size: 0.7em;
+        text-align: center;
+        padding: 20px;
+        margin-top: 40px;
+        
     }
 
 
