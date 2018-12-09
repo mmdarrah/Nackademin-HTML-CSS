@@ -2,67 +2,209 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <div id="container">
 
-        <div id="navbar">
-            <ul>
-                    <li><a href="#">Hem</a></li>
-                    <li><a href="#">How to</a></li>
-                    <li><a href="#">Historik</a></li>
-                    <li><a href="#">Om oss</a></li>
-            </ul> 
+        <div class="nav">
+            <label for="toggle">&#9776;</label>
+            <input type="checkbox" id="toggle">
+            <div class="menu">
+                <a href="#">Hem</a>
+                <a href="#">How to</a>
+                <a href="#">Historik</a>
+                <a href="#"><span>Om oss</span></a>    
+            </div>
+            
+            
             
         </div>
         
-        <div id="color">
-            <img src="./image/hard-pastels.png" alt="">
+        <div >
+            <img  id="image" src="./image/color.jpg" alt="Lets color" class="responsive">
+            
+        </div>
         
-
-       
-    </div>
-
-
+        
+        
+        <h2 id="h2">3 steg för att välja ett bra färgschema för din webbplats.</h2>
         <div id="block">
-            <h2>Steg 1</h2>
+            <h3>Steg 1</h3>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, distinctio fugit,
-                officia aut dolore accusantium mollitia rerum nulla ex soluta animi beatae. 
-                Dicta optio repellat quis odit cum magnam nobis!
+                Välja en dominerande färg som din varumärkes färg
+                Det här är den färg som du vill att din målgrupp ska komma ihåg när de tänker på dig. Använd bara din dominerande färg
+                på ett begränsat antal platser där du vill att besökarna på webbplatsen ska uppmärksamma, eller om du vill att dina
+                besökare ska vidta vissa åtgärder.
+                
             </p>
         </div>
         <div id="block">
-            <h2>Steg 2</h2>
+            <h3>Steg 2</h3>
             <p>
                 
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, distinctio fugit,
-                officia aut dolore accusantium mollitia rerum nulla ex soluta animi beatae. 
-                Dicta optio repellat quis odit cum magnam nobis!
+                Välja 1 till 2 accentfärger för att skapa ett färgschema för din webbplats
+                När du väl har din dominerande färg är det väldigt lätt att hitta dina accentfärger genom att använda färgkorrigering
+                verktyg som Adobe Color CC-tool.
+                
             </p>
         </div>
         <div id="block">
-        <h2>Steg 3</h2>
+            <h3>Steg 3</h3>
             <p>
-
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, distinctio fugit,
-             officia aut dolore accusantium mollitia rerum nulla ex soluta animi beatae. 
-             Dicta optio repellat quis odit cum magnam nobis!
+                
+                Välja en bakgrundsfärg för att slutföra din design
+                Använd Adobe Color CC-tool för att skapa olika nyanser och ljusstyrka på din dominerande färg annars använd vit eller
+                mycket ljusgrå som din bakgrundsfärg. På detta sätt kommer innehållet alltid att skina igenom.
+                
             </p>
         </div>
-
-        <div id="footer">
+        
+        <div class="clr"></div>
+        
+        <h2 id="h2colorsmening">Varje färg har en mening</h2>
+        
+        <div id="image2">
+            <img src="./image/most-popular-colors-used-in-web-design.jpg" alt="Lets color" class="responsive">
+            <a class="readmore" href="./image/Personality-of-color-infographic-by-website-builder-expert.jpg" target="blank">Read More</a>
+            
+        </div>
+        
+        
+        <div>
+            <h2 id="h2colorvalue">Färgvärdesnotering</h2>
+            
+            
+            <img id="colormethodimg" src="./image/color_methods.png" alt="color_methods">
+        </div>
+        
+        <div id="block2"> 
+            <h3>Hexadecimalt värde</h3>
+            
+            <p>
+                Hexadecimala färgvärden stöds även i alla webbläsare.
+                En hexadecimal färg anges med: #RRGGBB.
+                RR (röd), GG (grön) och BB (blå) är hexadecimala heltal mellan 00 och FF som specificerar färgens intensitet. <br> <br>
+                Exempel:
+                <br> a { color: #AABBCC; }
+                <br> a { color: #ABC; } <br>
+                
+            </p>
+            <a class="readmore" href="https://www.w3schools.com/colors/colors_hexadecimal.asp" target="blank">Read More</a>
+            
+        </div>
+        <div id="block2"> 
+            <h3>RGB-värdenotering</h3>
+            
+            <p>
+                RGB-färgvärden stöds i alla webbläsare.
+                Ett RGB-färgvärde anges med: rgb(red, green, blue).
+                Varje parameter (red, green, and blue) definierar färgens intensitet som ett heltal mellan 0 och 255. <br> <br> <br>
+                Exempel:
+                <br> a { color: rgb(170, 187, 204); }
+                <br> a { color: rgb(67%, 73%, 80%); } <br>
+                
+            </p>
+            <a class="readmore" href="https://www.w3schools.com/colors/colors_rgb.asp" target="blank">Read More</a>
+            
+        </div>
+        <div id="block2"> 
+            <h3>HSL-värdenotering</h3>
+            
+            <p>
+                HSL-färgvärden stöds i IE9 +, Firefox, Chrome, Safari och i Opera 10+.
+                HSL står för nyanser, mättnad och ljushet. <br> <br> <br> <br> <br> 
+                Exempel:
+                <br> a { color: hsl(210, 13.3%, 73.3%); } <br> <br>
+                
+            </p>
+            <a class="readmore" href="https://www.w3schools.com/colors/colors_hsl.asp" target="blank">Read More</a>
+            
+        </div>
+        <div class="clr"></div>
+        <div id="block3"> 
+            <h3>Färgnamn</h3>
+            
+            <p>
+                Färgords nyckelord är otillräckliga identifierare som representerar en specifik färg.
+                Alla moderna webbläsare stöder 140 färgnamn
+                <br> <br>  
+                Exempel:
+                <br> a { color: green; } <br> <br>
+                
+            </p>
+            <a class="readmore" href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="blank">Read More</a>
+            
+        </div>
+        <div id="block3"> 
+            <h3>Opacity</h3>
+            
+            <p>
+                Färgords nyckelord är otillräckliga identifierare som representerar en specifik färg.
+                Alla moderna webbläsare stöder 140 färgnamn
+                <br> <br>  
+                Exempel:
+                <br> a { color: green; } <br> <br>
+                
+            </p>
+            <a class="readmore" href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="blank">Read More</a>
+            
+        </div>
+        <div id="block3"> 
+            <h3>Transparency</h3>
+            
+            <p>
+                Färgords nyckelord är otillräckliga identifierare som representerar en specifik färg.
+                Alla moderna webbläsare stöder 140 färgnamn
+                <br> <br>  
+                Exempel:
+                <br> a { color: green; } <br> <br>
+                
+            </p>
+            <a class="readmore" href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="blank">Read More</a>
+            
+        </div>
+        
+        <div class="clr"></div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <footer id="footer">
+            <h3 id="sitemap">Site map</h3>
             <ul>
-                <h3>Site map</h3>
                 <li><a href="#">Hem</a></li>
                 <li><a href="#">How to</a></li>
                 <li><a href="#">Historik</a></li>
                 <li><a href="#">Om oss</a></li>
                 
             </ul>
+        </footer>
+        
+        
+        <div class="footer">
+            <p>Copyright &copy; 2018 </p>
         </div>
+        
     </div>
 </body>
 </html>
