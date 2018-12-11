@@ -21,6 +21,7 @@ colors {
   clear: both;
 }
 
+/* Mobile First */
 html,
 body {
   width: 100%;
@@ -29,8 +30,13 @@ body {
   padding-right: 60px;
   margin: 0;
   background-color: #fff;
+  
 
   
+}
+
+body{
+  background: url("./image/back_top.png") right bottom no-repeat fixed ;;
 }
 
 h2{
@@ -82,11 +88,12 @@ label {
   display: none;
 }
 
-@media only screen and (max-width: 850px) {
-  #container {
+/* desktop/ipad from 500px */
+@media only screen and (min-width: 500px) {
+  /* #container {
+    width: 100%;
     
-    
-  }
+  } */
   label {
     display: block;
     cursor: pointer;
@@ -114,9 +121,11 @@ label {
     margin: 0;
   }
 
-  #block {
+  #block,#block2,#block3 {
     
     padding: 15px;
+    margin: auto;
+    width: 100%;
     
   }
 
@@ -229,6 +238,10 @@ h3 {
 .responsive {
   width: 100%;
   height: auto;
+}
+
+#back{
+  
 }
 
 
