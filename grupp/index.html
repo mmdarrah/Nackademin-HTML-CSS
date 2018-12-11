@@ -6,11 +6,10 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-    <title>Document</title>
+    <title>Index</title>
 </head>
 <body>
     <div id="container">
-            <a name="top"></a>
 
         <div class="nav">
             <label for="toggle">&#9776;</label>
@@ -33,7 +32,7 @@
         
         
         
-        <h2 id="h2">3 steg för att välja ett bra färgschema för din webbplats.</h2>
+        <h2 id="h2">3 steg för att välja ett bra färgschema för din webbplats</h2>
         <div id="block">
             <h3>Steg 1</h3>
             <p>
@@ -61,6 +60,7 @@
                 Välja en bakgrundsfärg för att slutföra din design
                 Använd Adobe Color CC-tool för att skapa olika nyanser och ljusstyrka på din dominerande färg annars använd vit eller
                 mycket ljusgrå som din bakgrundsfärg. På detta sätt kommer innehållet alltid att skina igenom.
+                <br>
                 
             </p>
         </div>
@@ -71,123 +71,165 @@
         
         <div id="image2">
             <img src="./image/most-popular-colors-used-in-web-design.jpg" alt="Lets color" class="responsive">
-            <a class="readmore" href="./image/Personality-of-color-infographic-by-website-builder-expert.jpg" target="blank">Read More</a>
+            <a class="readmore" href="./image/Personality-of-color-infographic-by-website-builder-expert.jpg" target="blank">Läs mer</a>
             
         </div>
         
         
         <div>
             <h2 id="h2colorvalue">Färgvärdesnotering</h2>
+            <p>
+                Det finns tre grundläggande sätt att ange färg på, med hjälp av RGB(A), Hexadecimala eller ett färgnamn.
+            </p>
             
             
             <img id="colormethodimg" src="./image/color_methods.png" alt="color_methods">
         </div>
         
         <div id="block2"> 
-            <h3>Hexadecimalt värde</h3>
-            
+             <h3>Färgnamn</h3>            
             <p>
-                Hexadecimala färgvärden stöds även i alla webbläsare.
-                En hexadecimal färg anges med: #RRGGBB.
-                RR (röd), GG (grön) och BB (blå) är hexadecimala heltal mellan 00 och FF som specificerar färgens intensitet. <br> <br>
-                Exempel:
-                <br> a { color: #AABBCC; }
-                <br> a { color: #ABC; } <br>
-                
+            Benämningarna och definitionerna på färgerna har kritiserats, med all rätt. Ett utmärkt exempel är att “dark gray” är ljusare
+            än “gray”. Samt att alla gråa färger finns två gånger med två olika stavningar “gray” och “grey”. Ett annat märkligt exempel är 
+            att det finns en “medium violet red” men ingen “violet red” eller att det till exempel finns “light goldenrod yellow” men ingen
+            “goldenrod yellow” (se bild) <br>
+            Numera är det inte många som använder färgnamn, men som nybörjare kan det däremot vara enklare att skriva “tomato” än “#FF6347”.<br><br>
+            Flera färger har olika namn men är varandras motsvarighet:<br>
+              <ul>
+                 <li>aqua / cyan</li>
+                 <li>fuchsia / magenta</li>
+                 <li>Alla varianter av grå finns i alternativen gray / grey</li>
+                 <!--<li>darkgray / darkgrey</li>
+                 <li>darkslategray / darkslategrey</li>
+                 <li>dimgray / dimgrey</li>
+                 <li>lightgray / lightgrey</li>
+                 <li>lightslategray / lightslategrey</li>
+                 <li>slategray / slategrey</li>-->
+             </ul> 
+                    <!--Exempel:
+                    <br> a { color: green; }-->    
             </p>
-            <a class="readmore" href="https://www.w3schools.com/colors/colors_hexadecimal.asp" target="blank">Read More</a>
-            
+                <a class="readmore" href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="blank">Läs mer</a>        
         </div>
+
         <div id="block2"> 
-            <h3>RGB-värdenotering</h3>
+            <h3>R, G, B</h3>
             
             <p>
+                Med RGB(AA) är färgerna uppdelade, där R står för mängden röd, B står för mängden blå och
+                G står för mängden grön. AA är alpha och anger hur transparant en färg är.
+                Färgens intensitet anges som ett heltal mellan 0 och 255.<br>
                 RGB-färgvärden stöds i alla webbläsare.
-                Ett RGB-färgvärde anges med: rgb(red, green, blue).
-                Varje parameter (red, green, and blue) definierar färgens intensitet som ett heltal mellan 0 och 255. <br> <br> <br>
-                Exempel:
+                <!-- Exempel:
                 <br> a { color: rgb(170, 187, 204); }
-                <br> a { color: rgb(67%, 73%, 80%); } <br>
-                
+                <br> a { color: rgb(67%, 73%, 80%); } -->
+                <br>    
             </p>
-            <a class="readmore" href="https://www.w3schools.com/colors/colors_rgb.asp" target="blank">Read More</a>
+            <a class="readmore" href="https://www.w3schools.com/colors/colors_rgb.asp" target="blank">Läs mer</a>
             
         </div>
         <div id="block2"> 
-            <h3>HSL-värdenotering</h3>
+                <h3>Hexadecimalt värde</h3>
             
-            <p>
-                HSL-färgvärden stöds i IE9 +, Firefox, Chrome, Safari och i Opera 10+.
-                HSL står för nyanser, mättnad och ljushet. <br> <br> <br> <br> <br> 
-                Exempel:
-                <br> a { color: hsl(210, 13.3%, 73.3%); } <br> <br>
-                
-            </p>
-            <a class="readmore" href="https://www.w3schools.com/colors/colors_hsl.asp" target="blank">Read More</a>
-            
+                <p>
+                    Hexadecimala färgkoder anges med hjälp av en hashtag # i början. <br>
+                    En färgkod består av 6 stycken tecken där varje tecken kan vara siffrorna 0-9 eller bokstäverna A-F. Färgkoden visar intensiteten av röda, gröna och blåa komponenter. 
+                    Färgkoden #CCCCCC visar exempelvis en ljusgrå färg.
+                    Om en färg ska träda fram maximalt mycket så anges den med FF i koden och om en färg tvärtom ska träda fram minimalt så används 00.
+                    Vitt ljus består till exempel av alla färger så det representeras av koden #FFFFFF. Svart innehåller inga färger och har färgkoden #000000.
+                    Det går lika bra att skriva med tre F #FFF istället för sex för att få färgen vit. Samma gäller svart #000.
+                    <br>   
+                </p>
+                <a class="readmore" href="https://www.w3schools.com/colors/colors_hexadecimal.asp" target="blank">Läs mer</a><br><br>   
         </div>
+
+        <div>
+                <p>
+                    <table id="colortable" >
+                        <tr>
+                          <th>Färg</th>
+                          <th>Färgnamn</th>
+                          <th>R,G,B</th>
+                          <th>HEX</th>
+                        </tr>
+                        <tr>
+                          <td>BILD</td>
+                          <td>Svart</td>
+                          <td>(0,0,0)</td>
+                          <td>#000000</td>
+                        </tr>
+                        <tr>
+                          <td>BILD</td>
+                          <td>Vit</td>
+                          <td>(255,255,255)</td>
+                          <td>#FFFFFF</td>
+                        </tr>
+                        <tr>
+                          <td>BILD</td>
+                          <td>Röd</td>
+                          <td>(255,0,0)</td>
+                          <td>#FF0000</td>
+                        </tr>
+                        <tr>
+                          <td>BILD</td>
+                          <td>Lime</td>
+                          <td>(0,255,0)</td>
+                          <td>#00FF00</td>
+                        </tr>
+                        <tr>
+                          <td>BILD</td>
+                          <td>Blå</td>
+                          <td>(0,0,255)</td>
+                          <td>#0000FF</td>
+                        </tr>
+                        </table>
+                </p>
+            </div>
+
         <div class="clr"></div>
         <div id="block3"> 
-            <h3>Färgnamn och X11</h3>
+                <h3>HSL</h3>
             
-            <p>
-                Färgords nyckelord är otillräckliga identifierare som representerar en specifik färg.
-                Alla moderna webbläsare stöder 140 färgnamn
-                <br> <br>  
-                Exempel:
-                <br> a { color: green; } <br> <br>
-                
-            </p>
-            <a class="readmore" href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="blank">Read More</a>
-            
+                <p>
+                    HSL står där för Hue, Saturation, Lightness (nyans, mättnad och ljushet). <br><br>
+                   Exempel: --- OBS! hitta nytt!
+                    <br> a { color: hsl(210, 13.3%, 73.3%); }
+                    
+                </p>
+                <a class="readmore" href="https://www.w3schools.com/colors/colors_hsl.asp" target="blank">Läs mer</a>
         </div>
         <div id="block3"> 
-            <h3>Opacity</h3>
+            <h3>Opacity / Transparency</h3>
             
             <p>
-                Färgords nyckelord är otillräckliga identifierare som representerar en specifik färg.
-                Alla moderna webbläsare stöder 140 färgnamn
+                Opacity används för att ange hur transparent/genomskinligt en färg ska vara. ... med ett alfavärde.<br>
+                Standard är heltäckande vilket motsvarar 100% opacity.
                 <br> <br>  
-                Exempel:
-                <br> a { color: green; } <br> <br>
+                Exempel: --- OBS! hitta nytt!
+                <br> a { color: green; } <br>
                 
             </p>
-            <a class="readmore" href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="blank">Read More</a>
+            <a class="readmore" href="https://www.w3schools.com/css/css_image_transparency.asp" target="blank">Läs mer</a>
             
         </div>
-        <div id="block3"> 
+       <!-- Samma som opacity??
+           <div id="block3"> 
             <h3>Transparency</h3>
             
             <p>
                 Färgords nyckelord är otillräckliga identifierare som representerar en specifik färg.
                 Alla moderna webbläsare stöder 140 färgnamn
                 <br> <br>  
-                Exempel:
-                <br> a { color: green; } <br> <br>
+                Exempel: --- OBS! hitta nytt!
+                <br> a { color: green; } <br>
                 
             </p>
-            <a class="readmore" href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="blank">Read More</a>
+            <a class="readmore" href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="blank">Läs mer</a>
             
-        </div>
+        </div>-->
         
         <div class="clr"></div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        <a id="back" href="./image/back_top.png"></a>
-        
-        
+        <br>
         
         
         
@@ -206,7 +248,6 @@
         <div class="footer">
             <p>Copyright &copy; 2018 </p>
         </div>
-
         
     </div>
 </body>
