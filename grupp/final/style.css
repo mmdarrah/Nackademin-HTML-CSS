@@ -14,6 +14,7 @@ colors {
     font-family: "Rajdhani", sans-serif;
     margin: 0;
     padding: 0;
+    
   }
   
   .clr{
@@ -36,6 +37,7 @@ colors {
     padding-left: 5px;
     padding-right: 5px;
     margin: 0 auto;
+    
     
     
   }
@@ -112,16 +114,20 @@ colors {
     color: #ff2105;
   }
   
-  #block1,
-  #block2,
-  #block3,
-  #block4 {
+  
+  .block1,
+  .block2,
+  .block3,
+  .block4 {
     width: 100%;
     padding: 10px;
     color: #004466;
     margin: 0 auto;
     padding-bottom: 50px;
   }
+
+  
+
   
   h2 {
     padding-bottom: 20px;
@@ -131,10 +137,10 @@ colors {
     padding-bottom: 15px;
   }
   
-  #image {
+  .image {
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 80%;
     padding-bottom: 30px;
    
   }
@@ -175,11 +181,6 @@ colors {
   
   
   @media only screen and (min-width: 768px) {
-    #container{
-      
-  
-    }
-    
     
     
     
@@ -204,6 +205,7 @@ colors {
     .menu {
      
       background-color: #fff;
+      opacity: 0.9;
       
       
     }
@@ -321,7 +323,7 @@ colors {
       }
       
       
-      #block1 {
+      .block1 {
           float: left;
           width: 33.3%;
           padding: 15px;
@@ -361,7 +363,7 @@ colors {
             padding-bottom: 70px;
         }
         
-        #block1,#block2,#block3 {
+        .block1,.block2,.block3 {
             float: left;
             width: 33.3%;
             padding: 15px;
@@ -379,34 +381,83 @@ colors {
             
           }
 
+          #image11{
+                        display: none;
+          }
+
           #dessa{
               padding-top: 80px;
               color: #004466;
               font-size: 1.3em;
           }
-        
-    }
-    
-    
-    
-    #black{
-        width: 50px;
-        height: 20px;
-        padding-top: 5px;
-        
-    }
 
-    
-  #block5 {
-    width: 55%;
-    padding: 10px;
-    color: #004466;
-    margin: 0 auto;
-    padding-bottom: 50px;
-    float: left;
+          /* @supports(display: flex){
 
-     
-    }
-         
+            .block1{
+              display: flex;
+            } */
+
+
+          }
+
+           @supports (display: grid) {
+            @media only screen and (min-width: 768px) {
+            .block2,
+            .block3{
+            height: initial; 
+            width: initial;
+            }
+            
+
+            .grid {
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr ;
+              
+              
+            }
+            
+
+            .grid > #Färgnamn {
+              
+              grid-column: 1 /3  ;
+              grid-row: 1;
+            } 
+
+            .grid > #Hexadecimalt {
+              
+              grid-column: auto ;
+              grid-row: 1;
+            }
+            
+
+            .grid > #rgb {
+              
+              grid-column: 1 ;
+              grid-row: 2;
+            } 
+            .grid > #hsl1 {
+              
+              grid-column: 2 ;
+              grid-row: 2;
+            } 
+            .grid > #hsl2 {
+              
+              grid-column: 3 ;
+              grid-row: 2;
+            } 
+            
+          }
+
+          
+          
+        }
         
-
+        
+        
+        @supports (display: flex) {
+          @media only screen and (min-width: 768px) {
+          #flex{
+            display: flex;
+            
+          }
+        }}

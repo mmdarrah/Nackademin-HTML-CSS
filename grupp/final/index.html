@@ -25,7 +25,7 @@
                 <a href="#">Hem</a>
                 <a href="#Färgvärdesnotering">Färgkoder</a>
                 <a href="#Färgblindhet">Färgblindhet</a>
-                <a href="#"><span>Om oss</span></a>
+                <a href="./Kontakt.html"><span>Om oss</span></a>
             </div>
             
             
@@ -34,15 +34,15 @@
     </header>
     <div id="container">
     
-    <div>
+    <div id="mainimage">
         <img id="image" src="./image/color.jpg" alt="Lets color" class="responsive">
         
     </div>
 
 
 
-    <h2 id="h2">3 steg för att välja ett bra färgschema för din webbplats</h2>
-    <div id="block1">
+    <div id="firsth2"><h2 class="h2" >3 steg för att välja ett bra färgschema för din webbplats</h2></div>
+    <div class="block1" id="steg1">
         <h3>Steg 1</h3>
         <p>
             Välja en dominerande färg som din varumärkes färg
@@ -54,7 +54,7 @@
 
         </p>
     </div>
-    <div id="block1">
+    <div class="block1" id="steg2">
         <h3>Steg 2</h3>
         <p>
 
@@ -65,7 +65,7 @@
 
         </p>
     </div>
-    <div id="block1">
+    <div class="block1" id="steg3">
         <h3>Steg 3</h3>
         <p>
 
@@ -82,15 +82,15 @@
 
     <h2 id="h2colorsmening">Varje färg har en mening</h2>
 
-    <div id="image">
-        <img src="./image/most-popular-colors-used-in-web-design.jpg" alt="Lets color" class="responsive">
-        <a class="readmore" href="./image/Personality-of-color-infographic-by-website-builder-expert.jpg" target="blank">Läs
+    <div class="image" id="mostimage">
+        <img src="./image/most-popular-colors-used-in-web-design.jpg" alt="Lets color" class="responsive" >
+        <a class="readmore" href="./image/download.png" target="blank">Läs
             mer</a>
 
     </div>
 
 
-    <div>
+    <div id="colorvalue">
         <a name="Färgvärdesnotering"></a>
         <h2 id="h2colorvalue">Färgkoder</h2>
         <p>
@@ -101,41 +101,41 @@
 
         <img id="image1" src="./image/color_methods.png" alt="color_methods" class="responsive">
     </div>
-
-    <div id="block2">
-        <h3>Färgnamn</h3>
-        <p>
-            Benämningarna och definitionerna på färgerna har kritiserats, med all rätt. Ett utmärkt exempel är att
-            “dark gray” är ljusare
-            än “gray”. Samt att alla gråa färger finns två gånger med två olika stavningar “gray” och “grey”. Ett annat
-            märkligt exempel är
-            att det finns en “medium violet red” men ingen “violet red” eller att det till exempel finns “light
-            goldenrod yellow” men ingen
-            “goldenrod yellow” (se bild) <br>
-            Numera är det inte många som använder färgnamn, men som nybörjare kan det däremot vara enklare att skriva
-            “tomato” än “#FF6347”.<br><br>
-            <strong> Flera färger har olika namn men är varandras motsvarighet:</strong><br>
-
-            <em> aqua / cyan </em><br>
-            <em> fuchsia / magenta</em> <br>
-            <em> Alla varianter av grå finns i alternativen <br>
-                gray / grey </em><br>
-            <!--<li>darkgray / darkgrey</li>
-                 <li>darkslategray / darkslategrey</li>
-                 <li>dimgray / dimgrey</li>
-                 <li>lightgray / lightgrey</li>
-                 <li>lightslategray / lightslategrey</li>
-                 <li>slategray / slategrey</li>-->
-
-            <!--Exempel:
-                    <br> a { color: green; }-->
-        </p>
-        <a class="readmore" href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="blank">Läs mer</a>
-    </div>
-
-
-    <div id="block2">
-        <h3>Hexadecimalt värde</h3>
+    <div class="grid" >
+        <div class="block2" id="Färgnamn">
+            <h3>Färgnamn</h3>
+            <p>
+                Benämningarna och definitionerna på färgerna har kritiserats, med all rätt. Ett utmärkt exempel är att
+                “dark gray” är ljusare
+                än “gray”. Samt att alla gråa färger finns två gånger med två olika stavningar “gray” och “grey”. Ett annat
+                märkligt exempel är
+                att det finns en “medium violet red” men ingen “violet red” eller att det till exempel finns “light
+                goldenrod yellow” men ingen
+                “goldenrod yellow” (se bild) <br>
+                Numera är det inte många som använder färgnamn, men som nybörjare kan det däremot vara enklare att skriva
+                “tomato” än “#FF6347”.<br><br>
+                <strong> Flera färger har olika namn men är varandras motsvarighet:</strong><br>
+                
+                <em> aqua / cyan </em><br>
+                <em> fuchsia / magenta</em> <br>
+                <em> Alla varianter av grå finns i alternativen <br>
+                    gray / grey </em><br>
+                    <!--<li>darkgray / darkgrey</li>
+                        <li>darkslategray / darkslategrey</li>
+                        <li>dimgray / dimgrey</li>
+                        <li>lightgray / lightgrey</li>
+                        <li>lightslategray / lightslategrey</li>
+                        <li>slategray / slategrey</li>-->
+                        
+                        <!--Exempel:
+                            <br> a { color: green; }-->
+                        </p>
+                        <a class="readmore" href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" target="blank">Läs mer</a>
+                    </div>
+                    
+                    
+                    <div class="block2" id="Hexadecimalt">
+                        <h3>Hexadecimalt värde</h3>
 
         <p>
             Hexadecimala färgkoder anges med hjälp av en hashtag # i början. <br>
@@ -151,8 +151,8 @@
         </p>
         <a class="readmore" href="https://www.w3schools.com/colors/colors_hexadecimal.asp" target="blank">Läs mer</a><br><br>
     </div>
-    <div id="block2">
-        <h3>R, G, B</h3>
+    <div class="block2" id="rgb">
+        <h3 >R, G, B</h3>
 
         <p>
             Med RGB(AA) är färgerna uppdelade, där R står för mängden röd, B står för mängden blå och
@@ -169,8 +169,8 @@
     </div>
 
     <div class="clr"></div>
-    <div id="block3">
-        <h3 id="hsl">HSL</h3>
+    <div class="block3" id="hsl1">
+        <h3>HSL</h3>
 
         <p>
             HSL står där för Hue, Saturation, Lightness (nyans, mättnad och ljushet). <br>
@@ -180,8 +180,8 @@
         </p>
         <a class="readmore" href="https://www.w3schools.com/colors/colors_hsl.asp" target="blank">Läs mer</a>
     </div>
-    <div id="block3">
-        <h3 id="hsl">Opacity / Transparency</h3>
+    <div class="block3" id="hsl2">
+        <h3 >Opacity / Transparency</h3>
 
         <p>
             Opacity används för att ange hur transparent/genomskinligt en färg ska vara. ... med ett alfavärde.<br>
@@ -192,6 +192,8 @@
 
         </p>
         <a class="readmore" href="https://www.w3schools.com/css/css_image_transparency.asp" target="blank">Läs mer</a>
+
+    </div>
  <!-- Samma som opacity??
            <div id="block3"> 
             <h3>Transparency</h3>
@@ -277,7 +279,7 @@
     
     <div class="clr"></div>
 
-    <div id="block4">
+    <div class="block4">
         <h3>Tänk på:</h3>
        
             <h4>Undvik följande färgkombinationer:</h4><br>
@@ -297,42 +299,45 @@
 
 
         <h2 id="h2">Hur man överväger färgblindhet i designen</h2>
-    <div id="block1">
-        <h3>Ett</h3>
-        <p>
-            <strong> Använd tjocka linjer: </strong> Vissa milt färgblinda människor kan se en färg,
-                men bara om det finns tillräcklig mycket av den. Om en färglinje är för tunn visas den 
-                inte som rätt färg eller inte alls.
+        <div id="flex">
 
-        </p>
-    </div>
-    <div id="block1">
-        <h3>Två</h3>
-        <p>
-
-            <strong> Symboliskt element: </strong> Om du till exempel använder rött för att signalera 
-                "dåligt", "varning" eller "se upp", överväga att lägga till ett annat symboliskt element 
-                för att få fram budskapet även till besökare med sämre färgseende.
-
-        </p>
-    </div>
-    <div id="block1">
-        <h3>Tre</h3>
-        <p>
-
-            <strong> Kombinera med texturer: </strong> För till exempel kartor och diagram, försök 
-                att använda textur utöver färg för att skilja mellan objekt.
-            <br>
-
-        </p>
-    </div>
-        <div class="clr"></div>
-        
-     
-        
-       <!--  <div id="block5">
-            <h3>Dåliga exempel:</h3>
-
+            <div class="block1">
+                <h3>Ett</h3>
+                <p>
+                    <strong> Använd tjocka linjer: </strong> Vissa milt färgblinda människor kan se en färg,
+                    men bara om det finns tillräcklig mycket av den. Om en färglinje är för tunn visas den 
+                    inte som rätt färg eller inte alls.
+                    
+                </p>
+            </div>
+            <div class="block1">
+                <h3>Två</h3>
+                <p>
+                    
+                    <strong> Symboliskt element: </strong> Om du till exempel använder rött för att signalera 
+                    "dåligt", "varning" eller "se upp", överväga att lägga till ett annat symboliskt element 
+                    för att få fram budskapet även till besökare med sämre färgseende.
+                    
+                </p>
+            </div>
+            <div class="block1">
+                <h3>Tre</h3>
+                <p>
+                    
+                    <strong> Kombinera med texturer: </strong> För till exempel kartor och diagram, försök 
+                    att använda textur utöver färg för att skilja mellan objekt.
+                    <br>
+                    
+                </p>
+            </div>
+        </div>
+            <div class="clr"></div>
+            
+            
+            
+            <!--  <div id="block5">
+                <h3>Dåliga exempel:</h3>
+                
             <div id="block5"> 
                 <a href="./image/mapcolor.jpg">
                     <img id="image3" src="./image/mapcolor.jpg" alt="color_methods" class="responsive"></a>
